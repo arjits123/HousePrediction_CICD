@@ -12,3 +12,5 @@ Developed this in modular coding format:
 
 3. Model development python file
 - Responsible for model training and model evaluation using different machine learning models and metrics
+
+- AWS deployment
