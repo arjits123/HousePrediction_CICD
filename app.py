@@ -43,4 +43,4 @@ def predict_datapoint():
         return render_template('index.html', result = np.round(results[0],5))
     
 if __name__ =='__main__':
-    app.run(debug = True, host = 0.0.0.0/0 , port = 5001)
+    app.run(host='0.0.0.0', port=8080)
